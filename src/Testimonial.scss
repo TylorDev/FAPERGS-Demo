@@ -1,0 +1,52 @@
+// Testimonial.scss
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    /* Bordes redondeados para el contenedor padre */
+    background-color: #f2f2f2;
+    /* Color de fondo */
+    color: black;
+    max-width: 22%;
+    min-height: 25rem;
+}
+
+.testimonial__image-container {
+    border-radius: 50%;
+    /* Borde circular para la foto */
+    overflow: hidden;
+    /* Oculta las partes de la imagen fuera del contenedor */
+    margin-bottom: 1rem;
+
+    width: 50%;
+
+}
+
+.testimonial__image {
+    width: 100%;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 100%;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+.testimonial__content {
+    text-align: start;
+}
+
+.testimonial__name {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #3FAF84;
+}
+
+.testimonial__description {
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    max-width: 15rem;
+}

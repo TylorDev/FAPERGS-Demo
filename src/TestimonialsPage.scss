@@ -1,0 +1,50 @@
+// TestimonialsPage.scss
+
+.testimonials-page {
+
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+    background: rgb(120, 42, 179);
+    background: linear-gradient(180deg, rgba(120, 42, 179, 1) 0%, rgba(52, 18, 77, 1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-page__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonials-page-description {
+    max-width: 50%;
+    font-size: 1.2rem;
+}
+
+.testimonials-page__testimonials {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    margin: 3rem 0;
+    justify-content: space-evenly;
+}
+
+.testimonials-page__button {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #3FAF84;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 3rem;
+
+}
+
+.testimonials-page__button:hover {
+    background-color: #0056b3;
+}

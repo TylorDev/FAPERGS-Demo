@@ -1,0 +1,68 @@
+// About.scss
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem 0;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about__image {
+
+    border-radius: 15px;
+    /* Bordes redondeados en el lado izquierdo */
+    width: 50%;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 2rem;
+
+    /* Ajusta el margen izquierdo según tus necesidades */
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.about__text {
+
+    width: 30%;
+
+
+
+}
+
+.about__title {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    color: #3FAF84;
+    ;
+}
+
+.about__description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.about__button {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #3FAF84;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 3rem;
+    width: 10rem;
+}
+
+.about__button:hover {
+    background-color: #0056b3;
+}

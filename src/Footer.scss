@@ -1,0 +1,67 @@
+// Footer.scss
+
+.footer {
+    color: #222222;
+    border-top: 3px solid rgb(143, 142, 142);
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer__sections {
+
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+}
+
+.copyright {
+    font-size: 0.84rem;
+    text-align: center;
+    justify-self: end;
+    padding: 1rem 0;
+    border-top: 3px solid rgb(143, 142, 142);
+    margin-top: 10rem;
+
+}
+
+.footer__section {
+    width: 20%;
+
+
+    padding: 0 1rem;
+
+}
+
+.footer__title {
+    font-size: 2rem;
+    color: #3FAF84;
+    margin-bottom: 1rem;
+}
+
+.footer__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer__item {
+    margin-top: 1rem;
+}
+
+.footer__item a {
+    color: #222222;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.footer__item a:hover {
+    text-decoration: underline;
+}

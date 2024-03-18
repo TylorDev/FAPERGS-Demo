@@ -1,0 +1,46 @@
+// Header.scss
+
+.header {
+    background-color: white;
+
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.header__logo {
+    width: 18rem;
+
+}
+
+.nav {
+    display: flex;
+    margin-right: 5rem;
+    width: 40%;
+
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+
+
+.nav__item a {
+    color: #444444;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav__item a:hover {
+    text-decoration: underline;
+}

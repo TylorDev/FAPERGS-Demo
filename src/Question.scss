@@ -1,0 +1,22 @@
+.main_pregunta {
+    border: 2px solid rgba(0, 0, 0, 0.356);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.question__icon {
+    font-size: 2rem;
+}
+
+.pregunta {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.respuesta {
+    max-width: 80%;
+}
