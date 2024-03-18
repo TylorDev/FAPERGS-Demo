@@ -3,7 +3,7 @@ import Buttom from "./Components/Button";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <section className="home__section home__section--intro">
         <div className="home__content">
           <h1 className="home__title">

@@ -7,7 +7,7 @@ const Faq = () => {
   // Estado para controlar qué respuestas están visibles
 
   return (
-    <div className="FAQ">
+    <div className="FAQ" id="faqs">
       <div className="Contenidos">
         <div className="titulo">Perguntas Frequêntes</div>
         <div className="Aclaracion">

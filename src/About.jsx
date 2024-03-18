@@ -5,7 +5,7 @@ import Buttom from "./Components/Button";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="sobre">
       <div className="about__content">
         <div className="about__image">
           <img
