@@ -3,6 +3,7 @@
 import { useState } from "react";
 import "./Question.scss";
 import { RiArrowUpSLine, RiArrowDownSLine } from "react-icons/ri";
+// eslint-disable-next-line react/prop-types
 const Question = ({ text, answer }) => {
   const [expanded, setExpanded] = useState(false);
 

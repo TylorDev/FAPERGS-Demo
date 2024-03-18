@@ -1,10 +1,7 @@
 import "./App.scss";
-import Header from "./Header";
-import Footer from "./Footer";
-import Home from "./Home";
-import About from "./About";
-import TestimonialsPage from "./TestimonialPage";
-import Faq from "./FAQ";
+import Header from "./Pages/Header/Header";
+import Footer from "./Pages/Footer/Footer";
+import { Home, TestimonialPage, FAQ, About } from "./Pages/Index";
 
 function App() {
   return (
@@ -13,8 +10,8 @@ function App() {
       <div className="Contenido">
         <Home></Home>
         <About></About>
-        <TestimonialsPage></TestimonialsPage>
-        <Faq></Faq>
+        <TestimonialPage></TestimonialPage>
+        <FAQ></FAQ>
       </div>
       <Footer />
     </>

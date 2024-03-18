@@ -1,19 +1,19 @@
 // TestimonialsPage.js
-import "./TestimonialsPage.scss";
-import Testimonial from "./Testimonial";
-import Buttom from "./Components/Button";
+import TSMpage from "./TestimonialsPage.module.scss";
+import Testimonial from "../../Components/Testimonial";
+import Buttom from "../../Components/Button";
 
 const TestimonialsPage = () => {
   return (
-    <div className="testimonials-page" id="testimonial">
-      <h1 className="testimonials-page__title">Alguns dos participantes</h1>
-      <p className="testimonials-page-description">
+    <div className={TSMpage.TSMpage} id="testimonial">
+      <h1 className={TSMpage.title}>Alguns dos participantes</h1>
+      <p className={TSMpage.description}>
         Alguns dos participantes da edição passada compartilharam suas
         experiências transformadoras durante o evento. Suas histórias
         inspiradoras destacaram a importância da colaboração, inovação e
         descoberta na Conferência.
       </p>
-      <div className="testimonials-page__testimonials">
+      <div className={TSMpage.testimonials}>
         <Testimonial
           image={"1.png"}
           name="Jhon mendes"

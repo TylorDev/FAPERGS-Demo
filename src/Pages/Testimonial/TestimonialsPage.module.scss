@@ -1,6 +1,6 @@
 // TestimonialsPage.scss
 
-.testimonials-page {
+.TSMpage {
 
     margin: 0 auto;
     padding: 10rem 0;
@@ -13,17 +13,17 @@
     align-items: center;
 }
 
-.testimonials-page__title {
+.title {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.testimonials-page-description {
+.description {
     max-width: 50%;
     font-size: 1.2rem;
 }
 
-.testimonials-page__testimonials {
+.testimonials {
     display: flex;
     gap: 1rem;
     align-items: start;

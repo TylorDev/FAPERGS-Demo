@@ -1,23 +1,21 @@
-// About.js
-
-import "./About.scss";
-import Buttom from "./Components/Button";
-
+// About.j
+import about from "./About.module.scss";
+import Buttom from "../../Components/Button";
 const About = () => {
   return (
-    <div className="about" id="sobre">
-      <div className="about__content">
-        <div className="about__image">
+    <div className={about} id="sobre">
+      <div className={about.content}>
+        <div className={about.image}>
           <img
             src="about.png"
             alt="Imagen de muestra"
-            className="about__image"
+            className={about.image}
           />
         </div>
 
-        <div className="about__text">
-          <h2 className="about__title">Sobre a Conferência</h2>
-          <p className="about__description">
+        <div className={about.text}>
+          <h2 className={about.title}>Sobre a Conferência</h2>
+          <p className={about.description}>
             A Conferência Estadual de Ciência, Tecnologia e Inovação é uma
             plataforma líder dedicada a promover a colaboração e impulsionar o
             progresso nos campos da ciência, tecnologia e inovação. Nossa
