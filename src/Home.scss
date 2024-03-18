@@ -5,7 +5,8 @@
     background: rgb(120, 42, 179);
     background: linear-gradient(180deg, rgba(120, 42, 179, 1) 0%, rgba(52, 18, 77, 1) 100%);
     color: white;
-    padding: 5rem 0;
+    padding: 5rem 2rem;
+
 }
 
 .home__section {
@@ -35,6 +36,7 @@
 
     font-size: 2rem;
     margin-bottom: 2rem;
+
 }
 
 .home__description {
@@ -50,23 +52,6 @@
 
 }
 
-.home__button {
-    padding: 0.5rem 1rem;
-    margin: 0 1rem;
-    font-size: 1.1rem;
-    font-weight: bold;
-    background-color: #3FAF84;
-    color: #fff;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    height: 3rem;
-    width: 10rem;
-}
-
-.home__button:hover {
-    background-color: #387960;
-}
 
 .home__cover {
     width: 100%;

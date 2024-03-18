@@ -1,0 +1,19 @@
+.__button {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #3FAF84;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 3rem;
+    width: max-content;
+
+}
+
+
+.__button:hover {
+    background-color: #387960;
+}

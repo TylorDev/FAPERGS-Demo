@@ -1,6 +1,7 @@
 // TestimonialsPage.js
 import "./TestimonialsPage.scss";
 import Testimonial from "./Testimonial";
+import Buttom from "./Components/Button";
 
 const TestimonialsPage = () => {
   return (
@@ -29,7 +30,7 @@ const TestimonialsPage = () => {
           description="A conferência foi um marco em minha jornada acadêmica. Conhecer especialistas de diversas áreas, participar de workshops e apresentar meu trabalho foi uma oportunidade enriquecedora. Estou muito grato por ter participado e ansioso para os próximos eventos!"
         />
       </div>
-      <button className="testimonials-page__button">Junte-se a Nós</button>
+      <Buttom text={"Junte-se a Nós"} />
     </div>
   );
 };

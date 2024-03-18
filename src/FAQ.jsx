@@ -1,3 +1,4 @@
+import Buttom from "./Components/Button";
 import "./Faq.scss"; // Archivo de estilos SCSS
 
 import Question from "./Question";
@@ -16,7 +17,7 @@ const Faq = () => {
           orientando os visitantes a dar o próximo passo em sua jornada com a
           conferência.
         </div>
-        <button className="testimonials-page__button">Junte-se a Nós</button>
+        <Buttom text={"Junte-se a Nós"}></Buttom>
       </div>
       <div className="Preguntas">
         <Question

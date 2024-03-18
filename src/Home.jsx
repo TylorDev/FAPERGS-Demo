@@ -1,4 +1,5 @@
 import "./Home.scss";
+import Buttom from "./Components/Button";
 
 const Home = () => {
   return (
@@ -15,8 +16,8 @@ const Home = () => {
             um futuro mais promissor.
           </p>
           <div className="home__buttons">
-            <button className="home__button">Inscrever-se</button>
-            <button className="home__button">Saber mais</button>
+            <Buttom text={"inscreva-se"}></Buttom>
+            <Buttom text={"Saber mais"}></Buttom>
           </div>
         </div>
       </section>

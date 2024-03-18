@@ -1,6 +1,7 @@
 // About.js
 
 import "./About.scss";
+import Buttom from "./Components/Button";
 
 const About = () => {
   return (
@@ -27,7 +28,7 @@ const About = () => {
             tendências até abordar desafios urgentes, estamos comprometidos em
             avançar o conhecimento e catalisar mudanças transformadoras.
           </p>
-          <button className="about__button">Inscrever-se</button>
+          <Buttom text={"Inscreva-se"} />
         </div>
       </div>
     </div>
